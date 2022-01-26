@@ -5,9 +5,10 @@
     <div v-for="state in states" v-bind:key="state.id">
       <h2>{{ state[0] }}</h2>
       <h3>Median Household Income: ${{ state[1] }}</h3>
-      <h3>Percentage of Seasonally Unemployed: {{ state[2] }}</h3>
-      <h3>Percentage of Metropolitan Population: {{ state[3] }}</h3>
-      <h3>Percentage with High School Diploma: {{ state[4] }}</h3>
+      <h3>Percentage of Seasonally Unemployed: {{ state[2] }}%</h3>
+      <h3>Percentage of Metropolitan Population: {{ state[3] }}%</h3>
+      <h3>Percentage with High School Diploma: {{ state[4] }}%</h3>
+      <br />
     </div>
   </div>
 </template>
