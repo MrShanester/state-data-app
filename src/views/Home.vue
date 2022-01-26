@@ -1,7 +1,10 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to THE STATE" />
+    <h1>WELCOME TO THE STATE</h1>
+    <div v-for="state in states" v-bind:key="state.id">
+      <h2>{{ state[0] }}</h2>
+    </div>
   </div>
 </template>
 
@@ -12,7 +15,7 @@ import axios from "axios";
 export default {
   data: function () {
     return {
-      info: {},
+      states: {},
     };
   },
   created: function () {
@@ -21,7 +24,7 @@ export default {
   methods: {
     statesShow: function () {
       axios.get("/states").then((response) => {
-        this.info = response.data;
+        this.states = response.data;
         console.log(response.data);
       });
     },
