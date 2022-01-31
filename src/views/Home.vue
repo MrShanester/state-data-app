@@ -38,8 +38,8 @@
               <i class="fas fa-laugh-wink"></i>
             </div>
             <div class="sidebar-brand-text mx-3">
-              SB Admin
-              <sup>2</sup>
+              State Data App
+              <sup>TM</sup>
             </div>
           </a>
 
@@ -384,7 +384,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Shane</span>
                     <img class="img-profile rounded-circle" src="img/undraw_profile.svg" />
                   </a>
                   <!-- Dropdown - User Information -->
